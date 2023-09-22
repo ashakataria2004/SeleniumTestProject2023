@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T12:44:37 BST" name="Suite1" finished-at="2023-09-22T12:44:43 BST" duration-ms="6196">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.kodesprint.test.LoginTest@294425a7]" name="validLogin" class="com.kodesprint.test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTest.validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.kodesprint.test.LoginTest@294425a7]" name="validLogin" class="com.kodesprint.test.LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="positive">
+        <method signature="LoginTest.validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.kodesprint.test.LoginTest@294425a7]" name="validLogin" class="com.kodesprint.test.LoginTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2023-09-22T12:44:37 BST" name="Login" finished-at="2023-09-22T12:44:43 BST" duration-ms="6183">
+      <class name="com.kodesprint.test.LoginTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:37 BST" name="beforeTestMethod" finished-at="2023-09-22T12:44:37 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:37 BST" name="beforeClassMethod" finished-at="2023-09-22T12:44:37 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="initilizeDriver()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:37 BST" name="initilizeDriver" finished-at="2023-09-22T12:44:40 BST" duration-ms="2573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeDriver -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:40 BST" name="validLogin" data-provider="valid_login_data" finished-at="2023-09-22T12:44:43 BST" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudheerkumar.gv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sudheer@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:43 BST" name="closeDriver" finished-at="2023-09-22T12:44:43 BST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:43 BST" name="afterClassMethod" finished-at="2023-09-22T12:44:43 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:com.kodesprint.test.LoginTest@294425a7]" started-at="2023-09-22T12:44:43 BST" name="afterTestMethod" finished-at="2023-09-22T12:44:43 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.kodesprint.test.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2023-09-22T12:44:43 BST" name="Profile" finished-at="2023-09-22T12:44:43 BST" duration-ms="0">
+      <class name="com.kodesprint.test.ProfileTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.kodesprint.test.ProfileTest@35e2d654]" started-at="2023-09-22T12:44:37 BST" name="beforeSuite" finished-at="2023-09-22T12:44:37 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.kodesprint.test.ProfileTest@35e2d654]" started-at="2023-09-22T12:44:43 BST" name="afterSuite" finished-at="2023-09-22T12:44:43 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:com.kodesprint.test.ProfileTest@35e2d654]" started-at="2023-09-22T12:44:43 BST" name="beforeTestMethod" finished-at="2023-09-22T12:44:43 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:com.kodesprint.test.ProfileTest@35e2d654]" started-at="2023-09-22T12:44:43 BST" name="afterTestMethod" finished-at="2023-09-22T12:44:43 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.kodesprint.test.ProfileTest -->
+    </test> <!-- Profile -->
+  </suite> <!-- Suite1 -->
+</testng-results>
