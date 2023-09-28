@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kodesprint.test.ProfileTest">
+      <class name="com.kodesprint.test.SeleniumPracticeTest">
         <methods>
-          <include name="profileUpdate"/>
           <include name="beforeTestMethod"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+          <include name="testButton"/>
           <include name="afterClassMethod"/>
           <include name="afterTestMethod"/>
-          <include name="initilizeDriver"/>
           <include name="closeDriver"/>
+          <include name="initilizeDriver"/>
           <include name="beforeClassMethod"/>
         </methods>
-      </class> <!-- com.kodesprint.test.ProfileTest -->
+      </class> <!-- com.kodesprint.test.SeleniumPracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
